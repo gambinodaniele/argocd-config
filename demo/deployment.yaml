@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: argocd-app
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: argocd-app
