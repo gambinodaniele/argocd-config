@@ -31,6 +31,6 @@ spec:
   selector:
     app: argocd-app
   ports:
-  - port: 8089
+  - port: 8095
     targetPort: 5000
   type: LoadBalancer
